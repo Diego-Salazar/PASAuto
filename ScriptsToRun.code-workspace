@@ -9,6 +9,10 @@
 			"path": "HotKeys"
 		},
 		{
+			"name": "HotKeysAggregate",
+			"path": "HotKeysAggregate"
+		},
+		{
 			"name": "OpeningPrograms",
 			"path": "OpeningPrograms"
 		},
