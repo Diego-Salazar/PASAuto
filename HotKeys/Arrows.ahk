@@ -31,22 +31,22 @@ Return
 ; Shift + Arrow
 
 #If GetKeyState("CapsLock", "P")
-d & i::
+e & i::
     SendInput, +{Up}
     Sleep, 50
 Return
 
-d & k::
+e & k::
     SendInput, +{Down}
     Sleep, 50
 Return
 
-d & j::
+e & j::
     SendInput, +{Left}
     Sleep, 50
 Return
 
-d & l::
+e & l::
     SendInput, +{Right}
     Sleep, 50
 Return
