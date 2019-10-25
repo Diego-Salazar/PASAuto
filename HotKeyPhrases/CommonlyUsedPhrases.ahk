@@ -3,6 +3,9 @@
 ; ABBREVIATIONS
 :*:aiui::As I understand it
 
+; Links
+:*:linktoreprex::https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example
+
 ; ENTRIES FOR FORMS
 :*:mymail::diegosalazar214@gmail.com
 :*C:mycellpho::7323184603
