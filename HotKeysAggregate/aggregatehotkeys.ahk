@@ -1,13 +1,13 @@
 #SingleInstance, Force
 
 ; HotKeys
-#Include C:\Users\salazad4\Documents\AutoHotKey_Scripts\HotKeys\Arrows.ahk
-#Include C:\Users\salazad4\Documents\AutoHotKey_Scripts\HotKeys\HomeEndModifiers.ahk
+#Include %A_ScriptDir%\..\HotKeys\Arrows.ahk
+#Include %A_ScriptDir%\..\HotKeys\HomeEndModifiers.ahk
 
 ; SoundKeys
-#Include C:\Users\salazad4\Documents\AutoHotKey_Scripts\SoundKeys\VolumeAdjustment.ahk
+#Include %A_ScriptDir%\..\SoundKeys\VolumeAdjustment.ahk
 
 ; Opening Programs
-#Include C:\Users\salazad4\Documents\AutoHotKey_Scripts\OpeningPrograms\OpeningPrograms.ahk
+#Include %A_ScriptDir%\..\OpeningPrograms\OpeningPrograms.ahk
 
 ExitApp
