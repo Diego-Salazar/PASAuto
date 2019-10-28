@@ -29,7 +29,7 @@
 			"path": "HotKeyPhrases"
 		},
 		{
-			"name": "AutoHotKey_Scripts",
+			"name": "AutoHotKeyScripts",
 			"path": "."
 		}
 	],
