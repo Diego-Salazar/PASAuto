@@ -11,6 +11,7 @@
 :*C:mycellpho::7323184603
 :*C:myoffpho::6092525926
 :*C:mydob::02141991
+:*C:bas_drive::\\USNBRBMSFSP004.ONE.ADS.BMS.COM\SHARED02\ABD-Bioanalytical
 
 ; REGEX Tests
 ::listofrandomnames::
