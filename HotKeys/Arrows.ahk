@@ -9,12 +9,12 @@ Return
 ; Arrows
 
 ~Capslock & i::
-    SendInput, {up}
+    SendPlay, {up}
     Sleep, 50
 Return
 
 ~Capslock & k::
-    SendInput, {down}
+    SendPlay, {down}
     Sleep, 50
 Return
 
@@ -32,12 +32,12 @@ Return
 
 #If GetKeyState("CapsLock", "P")
 e & i::
-    SendInput, +{Up}
+    SendPlay, +{Up}
     Sleep, 50
 Return
 
 e & k::
-    SendInput, +{Down}
+    SendPlay, +{Down}
     Sleep, 50
 Return
 
@@ -56,12 +56,12 @@ Return
 
 #If GetKeyState("CapsLock", "P")
 f & i::
-    SendInput, ^{Up}
+    SendPlay, ^{Up}
     Sleep, 50
 Return
 
 f & k::
-    SendInput, ^{Down}
+    SendPlay, ^{Down}
     Sleep, 50
 Return
 
@@ -80,12 +80,12 @@ Return
 
 #If GetKeyState("CapsLock", "P")
 r & i::
-    SendInput, +^{Up}
+    SendPlay, +^{Up}
     Sleep, 50
 Return
 
 r & k::
-    SendInput, +^{Down}
+    SendPlay, +^{Down}
     Sleep, 50
 Return
 
