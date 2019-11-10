@@ -1,34 +1,6 @@
 {
 	"folders": [
 		{
-			"name": "ActivatingWindowPrograms",
-			"path": "ActivatingWindowPrograms"
-		},
-		{
-			"name": "HotKeys",
-			"path": "HotKeys"
-		},
-		{
-			"name": "HotKeysAggregate",
-			"path": "HotKeysAggregate"
-		},
-		{
-			"name": "OpeningPrograms",
-			"path": "OpeningPrograms"
-		},
-		{
-			"name": "Sound Analysis",
-			"path": "Sound Analysis"
-		},
-		{
-			"name": "SandboxAuto",
-			"path": "SandboxAuto"
-		},
-		{
-			"name": "HotKeyPhrases",
-			"path": "HotKeyPhrases"
-		},
-		{
 			"name": "AutoHotKeyScripts",
 			"path": "."
 		}
