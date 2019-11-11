@@ -4,7 +4,7 @@
 
 ; a variations
 !a::SendInput, {Asc 160}
-!+a::SendInput, {Asc 144}
+!+a::SendInput, {Asc 0193}
 
 ; e variations
 !e::SendInput, {Asc 130}
