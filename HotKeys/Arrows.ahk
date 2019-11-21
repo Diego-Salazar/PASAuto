@@ -28,7 +28,7 @@ Return
     Sleep, 50
 Return
 
-; Shift + Arrow
+; Shift + Arrows
 
 #If GetKeyState("CapsLock", "P")
 e & i::
@@ -52,7 +52,7 @@ e & l::
 Return
 #If
 
-; Control + Arrow
+; Control + Arrows
 
 #If GetKeyState("CapsLock", "P")
 f & i::
@@ -76,7 +76,31 @@ f & j::
 Return
 #If
 
-; Shift + Control + Arrow
+; Alt + Arrows
+
+#If GetKeyState("CapsLock", "P")
+d & i::
+    SendPlay, !{Up}
+    Sleep, 50
+Return
+
+d & k::
+    SendPlay, !{Down}
+    Sleep, 50
+Return
+
+d & l::
+    SendInput, !{Right}
+    Sleep, 50
+Return
+
+d & j::
+    SendInput, !{Left}
+    Sleep, 50
+Return
+#If
+
+; Shift + Control + Arrows
 
 #If GetKeyState("CapsLock", "P")
 r & i::

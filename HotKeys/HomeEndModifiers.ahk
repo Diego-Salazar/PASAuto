@@ -15,6 +15,11 @@ d & u::
     SendInput, ^{Home}
     Sleep, 50
 Return
+
+t & u::
+    SendInput, +^{Home}
+    Sleep, 50
+Return
 #If
 
 ; End and Modifiers
@@ -32,6 +37,11 @@ Return
 
 d & o::
     SendInput, ^{End}
+    Sleep, 50
+Return
+
+t & o::
+    SendInput, +^{End}
     Sleep, 50
 Return
 #If
