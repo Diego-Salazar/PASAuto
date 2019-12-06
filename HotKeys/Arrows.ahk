@@ -100,7 +100,20 @@ d & j::
 Return
 #If
 
-; Shift + Control + Arrows
+; Alt + Shift + Arrows
+#If GetKeyState("CapsLock", "P")
+q & i::
+    SendPlay, !+{Up}
+    Sleep, 50
+Return
+
+q & k::
+    SendPlay, !+{Down}
+    Sleep, 50
+Return
+#If
+
+; Control + Shift + Arrows
 
 #If GetKeyState("CapsLock", "P")
 r & i::
