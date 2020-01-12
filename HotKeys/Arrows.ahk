@@ -77,7 +77,10 @@ Return
 #If
 
 ; Alt + Arrows
-
+    ; Description of effects on special program: 
+        ; MS Word: On Table, Shift + Up/Down takes cursor from one cell to beginning of previous/next cell. In paragraphs, it takes
+                   ; to beginning of previous/next paragraph. 
+        ; R: It interleaves that line of code further up/down the code lines.
 #If GetKeyState("CapsLock", "P")
 d & i::
     SendPlay, !{Up}
@@ -114,6 +117,12 @@ Return
 #If
 
 ; Control + Shift + Arrows
+    ; Description of effects on special program: 
+        ; MS Word : Ctr + Shift + Up/Down (it has the effect of highlighting from where you are to either the beginning/end of paragraph).
+                   ; In table mode, Ctrl + Shift + Up highlights from where you are in the cell to beggining of cell. Ctrl + Shift + Down selects the wentire cell.
+
+        ; R: If cursor on function name, 'Ctrl + Shift + Up' highlights function name and whatever it encloses. If cursor is inside a function parameter, it will select that parameter,
+        ;    then the corresponding parentheses, and the function name
 
 #If GetKeyState("CapsLock", "P")
 r & i::
