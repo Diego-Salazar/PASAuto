@@ -77,10 +77,14 @@ Return
 #If
 
 ; Alt + Arrows
-    ; Description of effects on special program: 
-        ; MS Word: On Table, Shift + Up/Down takes cursor from one cell to beginning of previous/next cell. In paragraphs, it takes
+    ; Description of effects on specified programs: 
+        ; MS WORD:
+           ; Normal Mode:  Alt + Up/Down takes to beginning of previous/next paragraph.
+           ; On Table Mode, Alt + Up/Down takes cursor from one cell to beginning of previous/next cell. In paragraphs, it takes
                    ; to beginning of previous/next paragraph. 
-        ; R: It interleaves that line of code further up/down the code lines.
+        ; R & VS STUDIO CODE: 
+           ; It interleaves that line of code further up/down the lines of code. In R, alt & left is the same as Home key,
+                            ; and alt & right is the same as the End Key 
 #If GetKeyState("CapsLock", "P")
 d & i::
     SendPlay, !{Up}
@@ -104,6 +108,11 @@ Return
 #If
 
 ; Alt + Shift + Arrows
+    ; Description of effects on special program:
+        ; MS Word: it interleaves paragraphs
+                    ; In Table Mode, it interleaves rows in a table
+
+        ; R and Vision Studio Code: Copies a piece of code up/down
 #If GetKeyState("CapsLock", "P")
 q & i::
     SendPlay, !+{Up}
@@ -117,9 +126,9 @@ Return
 #If
 
 ; Control + Shift + Arrows
-    ; Description of effects on special program: 
+    ; Description of effects on special program:
         ; MS Word : Ctr + Shift + Up/Down (it has the effect of highlighting from where you are to either the beginning/end of paragraph).
-                   ; In table mode, Ctrl + Shift + Up highlights from where you are in the cell to beggining of cell. Ctrl + Shift + Down selects the wentire cell.
+                   ; In Table Mode, Ctrl + Shift + Up highlights from where you are in the cell to beggining of cell. Ctrl + Shift + Down selects the entire cell.
 
         ; R: If cursor on function name, 'Ctrl + Shift + Up' highlights function name and whatever it encloses. If cursor is inside a function parameter, it will select that parameter,
         ;    then the corresponding parentheses, and the function name
