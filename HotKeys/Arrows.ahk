@@ -1,9 +1,9 @@
 ; Toggling CapsLockKey
 Insert::
 if GetKeyState("Capslock", "T")
-SetCapsLockState, Alwaysoff
+SetCapsLockState, AlwaysOff
 else 
-SetCapsLockState, Alwayson
+SetCapsLockState, AlwaysOn
 Return
 
 ; Arrows
