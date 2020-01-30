@@ -10,9 +10,14 @@ SendInput {Up}print(chr(27) {+} "[2J") {Enter}
 Return
 #If
 
+;F7::
+;Run, SnippingTool.exe /clip
+;Return
+
 F7::
-Run, SnippingTool.exe /clip
-Return
+    Send, #+s
+    Sleep, 50
+Return    
 
 ToggleWinMinimize(TheWindowTitle){
     SetTitleMatchMode, 2
