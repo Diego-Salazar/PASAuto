@@ -5,8 +5,11 @@ Return
 
 #IfWinActive, ahk_exe Code.exe
 ; Clearing Terminal in Visual Studio Code for python programs
+; Remember that you first need to do the following:
+    ; # import os
+    ; os.system('cls')
 ^+l::
-SendInput {Up}print(chr(27) {+} "[2J") {Enter}
+SendInput, +{Home}{Delete}os.system('cls'){Enter}
 Return
 #If
 
@@ -30,7 +33,7 @@ ToggleWinMinimize(TheWindowTitle){
     else {}
 }
 
-#IfWinNotActive, ahk_class XLMAIN
+#IfWinNotActive, ahk_class wndclass_desked_gsk
 ; F8 key will bring to focus the Spotfire Application when it is opened, otherwise it will not do anything. The exception to this rule is when one is using Excel because
 ; excel uses F8 to debug, which I find it very useful  
 F8::ToggleWinMinimize("TIBCO Spotfire")
