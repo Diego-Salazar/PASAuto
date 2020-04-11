@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 ; REGEX Tests
 ::listofrandomnames::
 (

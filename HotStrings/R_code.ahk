@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 ; R CODE
 
 :*C:mydf::

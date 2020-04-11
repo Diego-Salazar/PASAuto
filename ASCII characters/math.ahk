@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 ; Common Math Symbols
 !s::SendInput, {Asc 229}
 !+s::SendInput, {Asc 229}{Asc 253}

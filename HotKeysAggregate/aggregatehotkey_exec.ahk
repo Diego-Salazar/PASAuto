@@ -1,1 +1,0 @@
-Run, "C:\Program Files\AutoHotkey\AutoHotkeyU64_UIA.exe" "aggregatehotkeys.ahk"

@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 ; Home and Modifiers
 
 ~Capslock & u::
@@ -40,7 +42,7 @@ Return
 ; End and Modifiers
 
 ~Capslock & o::
-    Send, {End}
+    SendInput, {End}
     Sleep, 50
 Return
 
@@ -75,13 +77,13 @@ Return
 ; Delete and Modifier
 
 ~Capslock & `;::
-    Send, {Delete}
+    SendInput, {Delete}
     Sleep, 50
 Return
 
 #If GetKeyState("CapsLock", "P")
 f & `;::
-    Send, ^{Delete}
+    SendInput, ^{Delete}
     Sleep, 50
 Return
 #If
@@ -90,7 +92,7 @@ Return
 
 #If GetKeyState("CapsLock", "P")
 Backspace::
-    Send, ^{Backspace}
+    SendInput, ^{Backspace}
     Sleep, 50
 Return
 #If

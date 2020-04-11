@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 ; n letters
 !n::SendInput, {Asc 164}
 !+n::SendInput, {Asc 165}

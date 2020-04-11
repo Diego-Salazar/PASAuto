@@ -1,7 +1,4 @@
-F1::
-Reload
-SoundBeep, 432, 500
-Return
+#SingleInstance, Force
 
 #IfWinActive, ahk_exe Code.exe
 ; Clearing Terminal in Visual Studio Code for python programs
@@ -12,10 +9,6 @@ Return
 SendInput, +{Home}{Delete}os.system('cls'){Enter}
 Return
 #If
-
-;F7::
-;Run, SnippingTool.exe /clip
-;Return
 
 F7::
     Send, #+s

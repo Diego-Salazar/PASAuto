@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 SetTitleMatchMode RegEx ;
 
 ; Opening Programs

@@ -1,4 +1,6 @@
-; Toggling CapsLockKey
+#SingleInstance, Force
+
+; Toggle Caps Lock Key
 Insert::
 if GetKeyState("Capslock", "T")
 SetCapsLockState, AlwaysOff

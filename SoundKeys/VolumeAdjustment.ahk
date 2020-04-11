@@ -1,3 +1,5 @@
+#SingleInstance, Force
+
 ; Volume Control
 
 #If GetKeyState("LWin", "P")
