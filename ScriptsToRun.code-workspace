@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "AutoHotKeyScripts",
+			"path": "."
+		}
+	],
+	"settings": {
+		"githubPullRequests.remotes": [
+			"https://github.com/Diego-Salazar/autoo.git"
+		],
+		"github.allowUnsafeSSL": true
+	}
+}	
