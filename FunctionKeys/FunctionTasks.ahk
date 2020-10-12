@@ -65,5 +65,5 @@ Return
 ; Copy and Search in Google
 F11::
 Send, ^c
-Run, www.google.com/#q=%clipboard%
+Run, http://www.google.com/search?q=%clipboard%
 Return
