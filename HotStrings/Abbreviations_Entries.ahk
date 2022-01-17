@@ -27,3 +27,4 @@
 :*C:mycellpho::7323184603
 :*C:myoffpho::6092525926
 :*C:mydob::02141991
+:*C:mylicense::S02401697402911

@@ -3,11 +3,11 @@
 SetTitleMatchMode RegEx ;
 
 ; Opening Programs
-#w::Run, WINWORD.EXE
-#i::Run, iexplore.exe
-#v::Run, VISIO.EXE
 #c::Run, Calc.exe
+#i::Run, iexplore.exe
+#n::Run, Notepad.exe
 #s::Run, lync.exe
+#w::Run, WINWORD.EXE
 
 ; Activating Programs (matched with the opening programs)
 ToggleWinMinimizeN(TheWindowTitle){
