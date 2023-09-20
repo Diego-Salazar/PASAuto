@@ -28,3 +28,9 @@
 :*C:myoffpho::6092525926
 :*C:mydob::02141991
 :*C:mylicense::S02401697402911
+:*C:mystreet::45 Arrowwood Lane
+:*C:mycity::Monmouth Junction
+:*C:rosaemail::rosadediegosalazardemeneses@gmail.com
+:*C:rosapass::RosayDiego2
+:*:hicounselorpass::XbcDq0Zz
+::autopass::hUMr17u4M2

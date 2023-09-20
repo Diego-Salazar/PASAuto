@@ -85,8 +85,8 @@ Return
            ; On Table Mode, Alt + Up/Down takes cursor from one cell to beginning of previous/next cell. In paragraphs, it takes
                    ; to beginning of previous/next paragraph. 
         ; R & VS STUDIO CODE: 
-           ; It interleaves that line of code further up/down the lines of code. In R, alt & left is the same as Home key,
-                            ; and alt & right is the same as the End Key 
+           ; Up and down combo interleave that line of code further up/down the lines of code. In R only, alt & left is the same as Home key,
+                            ; and alt & right is the same as the End Key. In Visual Studio Code, it moves back/forth to previous pages/tabs visited. 
 #If GetKeyState("CapsLock", "P")
 d & i::
     SendPlay, !{Up}

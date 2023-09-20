@@ -34,9 +34,25 @@ F8::ToggleWinMinimize("TIBCO Spotfire")
 #If
 
 ; Function to Copy and Search in Google
-F11::
+F10::
 Send, ^c
 Run, http://www.google.com/search?q=%clipboard%
+Return
+
+; Upper to Lower highlighted words
+F11::
+Send, ^c
+upper_input_var := Clipboard
+StringLower, lower_output_var, upper_input_var
+SendInput %lower_output_var%
+Return
+
+; Lower to Upper highlighted words
++F11::
+Send, ^c
+lower_input_var := Clipboard
+StringUpper, upper_output_var, lower_input_var
+SendInput %upper_output_var%
 Return
 
 ; The following is the structure for a Function Key, where X could be a number
