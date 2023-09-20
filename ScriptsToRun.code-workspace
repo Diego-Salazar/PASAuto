@@ -7,7 +7,7 @@
 	],
 	"settings": {
 		"githubPullRequests.remotes": [
-			"https://github.com/Diego-Salazar/autoo.git"
+			"https://github.com/Diego-Salazar/PASAuto.git"
 		],
 		"github.allowUnsafeSSL": true
 	}
